@@ -1,4 +1,4 @@
-# test2
+# rpg-base-template
 
 ## Project setup
 ```
