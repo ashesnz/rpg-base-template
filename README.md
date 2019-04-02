@@ -3,27 +3,23 @@
 ## Project setup
 ```
 npm install
+
+Create base .env file
+Note: Used for docker-compose local dev work
+DB_NAME=
+DB_USER=
+DB_PASSWORD=
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
+### Compiles Project
 ```
 npm run build
 ```
 
-### Run your tests
+### Run Project
 ```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
+npm run start
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Simple template to get a simple web application up and running to start development work quicker.
+
