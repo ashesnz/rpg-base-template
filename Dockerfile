@@ -5,8 +5,9 @@ RUN apt-get update && apt-get install -y curl \
     && curl -sL https://deb.nodesource.com/setup_8.x | bash - \
     && apt-get update && apt-get install -y nodejs
 
-# Make build directory and copy all local files
+# Make build & app directory and copy all local files
 RUN mkdir /tmp/build
+RUN mkdir /usr/app
 COPY . /tmp/build
 WORKDIR /tmp/build
 
@@ -15,10 +16,9 @@ RUN npm install
 RUN npm run build
 
 # Copy required applications files to app directory
-RUN mkdir /usr/app
-ADD lib /usr/app/lib
-ADD dist /usr/app/dist
-ADD sql /usr/app/sql
+RUN cp -R dist /usr/app/dist
+RUN cp -R lib /usr/app/lib
+RUN cp -R sql /usr/app/sql
 COPY app.rb Gemfile Gemfile.lock /usr/app/
 
 WORKDIR /usr/app
