@@ -10,7 +10,7 @@ DB_PASSWORD=
 ```
 ### Run Project
 ```
-docker-compose up
+docker-compose up -d
 ```
 
 Simple template to get a simple web application up and running to start development work quicker.
