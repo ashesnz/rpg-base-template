@@ -1,7 +1,7 @@
 # rpg-base-template
 
 ## Easy/Auto project setup
-Note: Save script in project folder :)
+Note: Save script in project folder :)  
 Grab script from RPG Dropbox and run it in your project folder.
 ```
 FILE: new_rpg_project.sh
