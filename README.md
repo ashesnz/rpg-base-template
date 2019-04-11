@@ -5,7 +5,7 @@ Note: Save script in project folder :)
 Grab script from RPG Dropbox and run it in your project folder.
 ```
 FILE: new_rpg_project.sh
-LOCATION: https://www.dropbox.com/preview/RPG/Infrastructure/
+LOCATION: https://www.dropbox.com/home/RPG/Infrastructure/
 ```
 
 ## Manual Project setup
