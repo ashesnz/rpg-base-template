@@ -43,7 +43,7 @@ class Main
       pos = line.index("\n")
       line = line.insert(pos, ';')
     else 
-      # Comment out descriptive text
+      # COMMENT: descriptive text
       line = "-- #{line}"
     end
     # REMOVE: (N.NNNNNNs) time blurb from remaining lines
@@ -51,7 +51,6 @@ class Main
   end
 
   def write_file(data)
-    # output_path = '/home/wamci0/rpg/rpg-base-template/sql/test.sql'
     File.open(@sql_file_path, 'w') do |file| 
       data.each do |line|
         file.write(line)
