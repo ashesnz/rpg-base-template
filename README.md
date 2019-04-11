@@ -8,7 +8,7 @@ FILE: new_rpg_project.sh
 LOCATION: https://www.dropbox.com/preview/RPG/Infrastructure/
 ```
 
-## Manula Project setup
+## Manual Project setup
 ```
 Clone repo
 
